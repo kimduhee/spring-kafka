@@ -29,13 +29,13 @@ spec:
       #containers: pod에서 운영할 컨테이너 정보 명시 name image exposed port
       containers:
         - name: spring-boot-load
-          image: kimduhee/dev-kafka:latest
+          image: kimduhee/spring-boot-load-svc:latest
           #imagePullPolicy는 container에 사용할 이미지를 어떻게 공급할 것인지 정한다.
           #로컬에 있는 이미지만 사용할 것인지, 다운을 받을 것이지 옵션을 통해 정할 수 있다.
           #imagePullPolicy: Always
           imagePullPolicy: Never
           #클러스터 안에 있는 컨테이너로 통할 port를 설정
-          command: ["/bin/sh", "-ec", "while :; do echo 'Hello World'; sleep 5 ; done"]
+          #command: ["/bin/sh", "-ec", "while :; do echo 'Hello World'; sleep 5 ; done"]
           ports:
             - protocol: TCP
               containerPort: 8090

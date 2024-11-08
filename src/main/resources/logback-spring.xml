@@ -33,11 +33,12 @@
 
     <!-- 로그를 남길 대상 및 로그 레벨 설정 -->
     <logger name="com.example.webzine.gw" level="DEBUG">
-        <appender-ref ref="DAILY_ROLLING_FILE_APPENDER"/>
         <appender-ref ref="STDOUT"/>
     </logger>
     <logger name="org.springframework.web.client" level="trace">
-        <appender-ref ref="DAILY_ROLLING_FILE_APPENDER"/>
+        <appender-ref ref="STDOUT"/>
+    </logger>
+    <logger name="org.springframework.boot" level="info">
         <appender-ref ref="STDOUT"/>
     </logger>
 </configuration>
