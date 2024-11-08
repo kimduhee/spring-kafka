@@ -1,0 +1,56 @@
+server:
+  port: 8080
+
+spring:
+  http:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+  application:
+    name: kafka-test
+  kafka:
+    #Kafka 클러스터에 대한 초기 연결에 사용할 호스트:포트 목록
+    bootstrap-servers: localhost:9092
+    consumer:
+      #groupId 설정
+      group-id: my-group-1
+
+      #자동커밋 설정 (default:true)
+      enable-auto-commit: true
+
+      #kafka 초기 offset이 없거나, 더이상 offset 이 없을때 수행
+      # latest : 가장 최근에 생산된 메시지 offset reset
+      # earliest : 가장 오래된 메시지로 offset reset
+      # none : offset 정보없을때 , Exception 발생
+      auto-offset-reset: latest
+
+      #kafka에서 데이터를 수신할 때 key/value 역직렬화
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+
+      #컨슈머가 polling시 최대로 가져갈 수 있는 record 개수(default:500)
+      max-poll-records: 100
+    producer:
+      #kafka에서 데이터를 송신할 때, key/value 직렬화
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+
+      #kafka로 보낼 배치에 들어갈 수 있는 최대 바이트 수(default:16KB)
+      #배치 크기보다  큰 메시지가 있으면 배치에 들어가지 않고 바로 전송
+      #전송하는 파티션마다 하나씩 할당하기에 너무 큰 값으로 설정하면 메모리 낭비 발생
+      batch-size: 1600
+
+      #데이터를 모아두었다가 설정한 시간이 되면 전송(default:0)
+      #batch.size를 설정하면 linger.ms시간이 되기 전에 batch.size만큼 배치가 다 차면 배치를 전송
+      linger-ms: 1000
+
+      #레코드 전송을 위한 파티셔너 설정
+      partitioner-class: org.apache.kafka.clients.producer.UniformStickyPartitioner
+    template:
+      #토픽 리스트
+      topic: dev-topic-test1,
+        dev-topic-test2
+  zipkin:
+    sender:
+      type: kafka

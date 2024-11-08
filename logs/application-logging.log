@@ -1,0 +1,67 @@
+[2024-11-08 09:22:20:64676645][http-nio-8080-exec-1] DEBUG c.e.w.gw.controller.KafkaController[22] - message : null
+[2024-11-08 09:23:20:64737055][http-nio-8080-exec-1] DEBUG c.e.w.gw.service.CustomProducer[42] - pub timestamp : 1970-01-01T08:59:59.999
+[2024-11-08 09:23:20:64737114][http-nio-8080-exec-1] DEBUG c.e.w.gw.service.CustomProducer[43] - pub partition : -1
+[2024-11-08 09:23:20:64737115][http-nio-8080-exec-1] DEBUG c.e.w.gw.service.CustomProducer[44] - pub message : null
+[2024-11-08 09:23:20:64737117][http-nio-8080-exec-1] DEBUG c.e.w.gw.service.CustomProducer[46] - Topic dev-topic-test1 not present in metadata after 60000 ms.
+[2024-11-08 09:26:14:2005][main] INFO  c.e.w.gw.ApiGatewayApplication[51] - Starting ApiGatewayApplication using Java 17.0.13 with PID 5488 (C:\dev\workspace\gw\out\production\classes started by PMG043 in C:\dev\workspace\gw)
+[2024-11-08 09:26:14:2015][main] DEBUG c.e.w.gw.ApiGatewayApplication[52] - Running with Spring Boot v3.1.4, Spring v6.0.12
+[2024-11-08 09:26:14:2017][main] INFO  c.e.w.gw.ApiGatewayApplication[637] - No active profile set, falling back to 1 default profile: "default"
+[2024-11-08 09:26:19:7031][main] INFO  c.e.w.gw.ApiGatewayApplication[57] - Started ApiGatewayApplication in 6.393 seconds (process running for 7.638)
+[2024-11-08 09:26:22:9466][http-nio-8080-exec-1] DEBUG c.e.w.gw.controller.KafkaController[22] - message : null
+[2024-11-08 09:26:25:12604][http-nio-8080-exec-2] DEBUG c.e.w.gw.controller.KafkaController[22] - message : null
+[2024-11-08 09:27:22:69469][http-nio-8080-exec-1] DEBUG c.e.w.gw.service.CustomProducer[42] - pub timestamp : 1970-01-01T08:59:59.999
+[2024-11-08 09:27:22:69470][http-nio-8080-exec-1] DEBUG c.e.w.gw.service.CustomProducer[43] - pub partition : -1
+[2024-11-08 09:27:22:69470][http-nio-8080-exec-1] DEBUG c.e.w.gw.service.CustomProducer[44] - pub message : null
+[2024-11-08 09:27:22:69470][http-nio-8080-exec-1] DEBUG c.e.w.gw.service.CustomProducer[46] - Topic dev-topic-test1 not present in metadata after 60000 ms.
+[2024-11-08 09:27:25:72605][http-nio-8080-exec-2] DEBUG c.e.w.gw.service.CustomProducer[42] - pub timestamp : 1970-01-01T08:59:59.999
+[2024-11-08 09:27:25:72605][http-nio-8080-exec-2] DEBUG c.e.w.gw.service.CustomProducer[43] - pub partition : -1
+[2024-11-08 09:27:25:72605][http-nio-8080-exec-2] DEBUG c.e.w.gw.service.CustomProducer[44] - pub message : null
+[2024-11-08 09:27:25:72606][http-nio-8080-exec-2] DEBUG c.e.w.gw.service.CustomProducer[46] - Topic dev-topic-test1 not present in metadata after 60000 ms.
+[2024-11-08 09:27:38:1095][main] INFO  c.e.w.gw.ApiGatewayApplication[51] - Starting ApiGatewayApplication using Java 17.0.13 with PID 18620 (C:\dev\workspace\gw\out\production\classes started by PMG043 in C:\dev\workspace\gw)
+[2024-11-08 09:27:38:1098][main] DEBUG c.e.w.gw.ApiGatewayApplication[52] - Running with Spring Boot v3.1.4, Spring v6.0.12
+[2024-11-08 09:27:38:1099][main] INFO  c.e.w.gw.ApiGatewayApplication[637] - No active profile set, falling back to 1 default profile: "default"
+[2024-11-08 09:27:41:4643][main] INFO  c.e.w.gw.ApiGatewayApplication[57] - Started ApiGatewayApplication in 4.412 seconds (process running for 4.922)
+[2024-11-08 09:27:41:4848][http-nio-8080-exec-1] DEBUG c.e.w.gw.controller.KafkaController[22] - message : null
+[2024-11-08 09:27:42:5162][http-nio-8080-exec-2] DEBUG c.e.w.gw.controller.KafkaController[22] - message : null
+[2024-11-08 09:28:41:64852][http-nio-8080-exec-1] DEBUG c.e.w.gw.service.CustomProducer[42] - pub timestamp : 1970-01-01T08:59:59.999
+[2024-11-08 09:28:41:64853][http-nio-8080-exec-1] DEBUG c.e.w.gw.service.CustomProducer[43] - pub partition : -1
+[2024-11-08 09:28:41:64854][http-nio-8080-exec-1] DEBUG c.e.w.gw.service.CustomProducer[44] - pub message : null
+[2024-11-08 09:28:41:64854][http-nio-8080-exec-1] DEBUG c.e.w.gw.service.CustomProducer[46] - Topic dev-topic-test1 not present in metadata after 60000 ms.
+[2024-11-08 09:28:42:65164][http-nio-8080-exec-2] DEBUG c.e.w.gw.service.CustomProducer[42] - pub timestamp : 1970-01-01T08:59:59.999
+[2024-11-08 09:28:42:65165][http-nio-8080-exec-2] DEBUG c.e.w.gw.service.CustomProducer[43] - pub partition : -1
+[2024-11-08 09:28:42:65165][http-nio-8080-exec-2] DEBUG c.e.w.gw.service.CustomProducer[44] - pub message : null
+[2024-11-08 09:28:42:65165][http-nio-8080-exec-2] DEBUG c.e.w.gw.service.CustomProducer[46] - Topic dev-topic-test1 not present in metadata after 60000 ms.
+[2024-11-08 09:30:05:148695][http-nio-8080-exec-5] DEBUG c.e.w.gw.controller.KafkaController[22] - message : null
+[2024-11-08 09:30:10:153811][http-nio-8080-exec-6] DEBUG c.e.w.gw.controller.KafkaController[22] - message : null
+[2024-11-08 09:30:13:156940][http-nio-8080-exec-7] DEBUG c.e.w.gw.controller.KafkaController[22] - message : null
+[2024-11-08 09:30:17:160659][http-nio-8080-exec-9] DEBUG c.e.w.gw.controller.KafkaController[22] - message : null
+[2024-11-08 09:30:28:171841][http-nio-8080-exec-3] DEBUG c.e.w.gw.controller.KafkaController[22] - message : hello
+[2024-11-08 09:30:57:1056][main] INFO  c.e.w.gw.ApiGatewayApplication[51] - Starting ApiGatewayApplication using Java 17.0.13 with PID 26020 (C:\dev\workspace\gw\out\production\classes started by PMG043 in C:\dev\workspace\gw)
+[2024-11-08 09:30:57:1058][main] DEBUG c.e.w.gw.ApiGatewayApplication[52] - Running with Spring Boot v3.1.4, Spring v6.0.12
+[2024-11-08 09:30:57:1059][main] INFO  c.e.w.gw.ApiGatewayApplication[637] - No active profile set, falling back to 1 default profile: "default"
+[2024-11-08 09:31:00:4377][main] INFO  c.e.w.gw.ApiGatewayApplication[57] - Started ApiGatewayApplication in 4.114 seconds (process running for 4.713)
+[2024-11-08 09:31:02:6150][http-nio-8080-exec-1] DEBUG c.e.w.gw.controller.KafkaController[22] - message : hello
+[2024-11-08 09:31:06:9933][http-nio-8080-exec-3] DEBUG c.e.w.gw.controller.KafkaController[22] - message : hello
+[2024-11-08 09:32:02:66153][http-nio-8080-exec-1] DEBUG c.e.w.gw.service.CustomProducer[42] - pub timestamp : 1970-01-01T08:59:59.999
+[2024-11-08 09:32:02:66154][http-nio-8080-exec-1] DEBUG c.e.w.gw.service.CustomProducer[43] - pub partition : -1
+[2024-11-08 09:32:02:66154][http-nio-8080-exec-1] DEBUG c.e.w.gw.service.CustomProducer[44] - pub message : hello
+[2024-11-08 09:32:02:66154][http-nio-8080-exec-1] DEBUG c.e.w.gw.service.CustomProducer[46] - Topic dev-topic-test1 not present in metadata after 60000 ms.
+[2024-11-08 09:32:06:69935][http-nio-8080-exec-3] DEBUG c.e.w.gw.service.CustomProducer[42] - pub timestamp : 1970-01-01T08:59:59.999
+[2024-11-08 09:32:06:69936][http-nio-8080-exec-3] DEBUG c.e.w.gw.service.CustomProducer[43] - pub partition : -1
+[2024-11-08 09:32:06:69936][http-nio-8080-exec-3] DEBUG c.e.w.gw.service.CustomProducer[44] - pub message : hello
+[2024-11-08 09:32:06:69937][http-nio-8080-exec-3] DEBUG c.e.w.gw.service.CustomProducer[46] - Topic dev-topic-test1 not present in metadata after 60000 ms.
+[2024-11-08 09:32:30:94494][http-nio-8080-exec-6] DEBUG c.e.w.gw.controller.KafkaController[22] - message : hello
+[2024-11-08 09:33:30:154507][http-nio-8080-exec-6] DEBUG c.e.w.gw.service.CustomProducer[42] - pub timestamp : 1970-01-01T08:59:59.999
+[2024-11-08 09:33:30:154507][http-nio-8080-exec-6] DEBUG c.e.w.gw.service.CustomProducer[43] - pub partition : -1
+[2024-11-08 09:33:30:154508][http-nio-8080-exec-6] DEBUG c.e.w.gw.service.CustomProducer[44] - pub message : hello
+[2024-11-08 09:33:30:154508][http-nio-8080-exec-6] DEBUG c.e.w.gw.service.CustomProducer[46] - Topic dev-topic-test1 not present in metadata after 60000 ms.
+[2024-11-08 09:34:33:217419][http-nio-8080-exec-9] DEBUG c.e.w.gw.controller.KafkaController[22] - message : hello
+[2024-11-08 09:34:34:218518][kafka-producer-network-thread | producer-1] DEBUG c.e.w.gw.service.CustomProducer[42] - pub timestamp : 2024-11-08T09:34:33.740
+[2024-11-08 09:34:34:218518][kafka-producer-network-thread | producer-1] DEBUG c.e.w.gw.service.CustomProducer[43] - pub partition : 1
+[2024-11-08 09:34:34:218518][kafka-producer-network-thread | producer-1] DEBUG c.e.w.gw.service.CustomProducer[44] - pub message : hello
+[2024-11-08 09:34:38:222028][org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] DEBUG c.e.w.gw.service.CustomConsumer[49] - [consumer2] => topic: dev-topic-test1, partition: 1, offset: 1320, value: hello 
+[2024-11-08 09:34:39:223464][http-nio-8080-exec-4] DEBUG c.e.w.gw.controller.KafkaController[22] - message : hello
+[2024-11-08 09:34:40:224473][kafka-producer-network-thread | producer-1] DEBUG c.e.w.gw.service.CustomProducer[42] - pub timestamp : 2024-11-08T09:34:39.784
+[2024-11-08 09:34:40:224473][kafka-producer-network-thread | producer-1] DEBUG c.e.w.gw.service.CustomProducer[43] - pub partition : 0
+[2024-11-08 09:34:40:224473][kafka-producer-network-thread | producer-1] DEBUG c.e.w.gw.service.CustomProducer[44] - pub message : hello
+[2024-11-08 09:34:40:224475][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] DEBUG c.e.w.gw.service.CustomConsumer[43] - [consumer1] => topic: dev-topic-test1, partition: 0, offset: 401, value: hello 
