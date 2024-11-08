@@ -1,0 +1,13 @@
+# Kubernetes API version
+apiVersion: v1
+# Kubernetes resource kind
+kind: Endpoints
+# Metadata of the resource kind 
+metadata:
+  name: spring-boot-load-svc
+subsets:
+  - addresses:
+      - ip: 172.25.128.1
+    ports:
+      - name: http
+        port: 9092

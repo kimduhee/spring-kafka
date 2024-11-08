@@ -65,3 +65,76 @@
 [2024-11-08 09:34:40:224473][kafka-producer-network-thread | producer-1] DEBUG c.e.w.gw.service.CustomProducer[43] - pub partition : 0
 [2024-11-08 09:34:40:224473][kafka-producer-network-thread | producer-1] DEBUG c.e.w.gw.service.CustomProducer[44] - pub message : hello
 [2024-11-08 09:34:40:224475][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] DEBUG c.e.w.gw.service.CustomConsumer[43] - [consumer1] => topic: dev-topic-test1, partition: 0, offset: 401, value: hello 
+[2024-11-08 13:14:08:1128][main] INFO  c.e.w.gw.ApiGatewayApplication[51] - Starting ApiGatewayApplication using Java 17.0.13 with PID 21028 (C:\dev\workspace\gw\out\production\classes started by PMG043 in C:\dev\workspace\gw)
+[2024-11-08 13:14:08:1130][main] DEBUG c.e.w.gw.ApiGatewayApplication[52] - Running with Spring Boot v3.1.4, Spring v6.0.12
+[2024-11-08 13:14:08:1131][main] INFO  c.e.w.gw.ApiGatewayApplication[637] - No active profile set, falling back to 1 default profile: "default"
+[2024-11-08 13:14:11:4837][main] INFO  c.e.w.gw.ApiGatewayApplication[57] - Started ApiGatewayApplication in 4.525 seconds (process running for 5.19)
+[2024-11-08 13:14:12:5058][http-nio-8080-exec-1] DEBUG c.e.w.gw.controller.KafkaController[22] - message : hello2
+[2024-11-08 13:14:13:6170][kafka-producer-network-thread | producer-1] DEBUG c.e.w.gw.service.CustomProducer[42] - pub timestamp : 2024-11-08T13:14:12.102
+[2024-11-08 13:14:13:6170][kafka-producer-network-thread | producer-1] DEBUG c.e.w.gw.service.CustomProducer[43] - pub partition : 1
+[2024-11-08 13:14:13:6170][kafka-producer-network-thread | producer-1] DEBUG c.e.w.gw.service.CustomProducer[44] - pub message : hello2
+[2024-11-08 13:14:13:6199][org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] DEBUG c.e.w.gw.service.CustomConsumer[43] - [consumer1] => topic: dev-topic-test1, partition: 1, offset: 1321, value: hello2 
+[2024-11-08 13:14:45:978][main] INFO  c.e.w.gw.ApiGatewayApplication[51] - Starting ApiGatewayApplication using Java 17.0.13 with PID 11548 (C:\dev\workspace\gw\out\production\classes started by PMG043 in C:\dev\workspace\gw)
+[2024-11-08 13:14:45:980][main] DEBUG c.e.w.gw.ApiGatewayApplication[52] - Running with Spring Boot v3.1.4, Spring v6.0.12
+[2024-11-08 13:14:45:982][main] INFO  c.e.w.gw.ApiGatewayApplication[637] - No active profile set, falling back to 1 default profile: "default"
+[2024-11-08 13:14:48:3811][main] INFO  c.e.w.gw.ApiGatewayApplication[57] - Started ApiGatewayApplication in 3.575 seconds (process running for 4.11)
+[2024-11-08 13:14:51:6839][http-nio-8080-exec-1] DEBUG c.e.w.gw.controller.KafkaController[22] - message : hello2
+[2024-11-08 13:14:52:7899][kafka-producer-network-thread | producer-1] DEBUG c.e.w.gw.service.CustomProducer[42] - pub timestamp : 2024-11-08T13:14:51.778
+[2024-11-08 13:14:52:7899][kafka-producer-network-thread | producer-1] DEBUG c.e.w.gw.service.CustomProducer[43] - pub partition : 1
+[2024-11-08 13:14:52:7899][kafka-producer-network-thread | producer-1] DEBUG c.e.w.gw.service.CustomProducer[44] - pub message : hello2
+[2024-11-08 13:14:52:7907][org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] DEBUG c.e.w.gw.service.CustomConsumer[49] - [consumer2] => topic: dev-topic-test1, partition: 1, offset: 1322, value: hello2 
+[2024-11-08 13:15:07:955][main] INFO  c.e.w.gw.ApiGatewayApplication[51] - Starting ApiGatewayApplication using Java 17.0.13 with PID 20284 (C:\dev\workspace\gw\out\production\classes started by PMG043 in C:\dev\workspace\gw)
+[2024-11-08 13:15:07:958][main] DEBUG c.e.w.gw.ApiGatewayApplication[52] - Running with Spring Boot v3.1.4, Spring v6.0.12
+[2024-11-08 13:15:07:960][main] INFO  c.e.w.gw.ApiGatewayApplication[637] - No active profile set, falling back to 1 default profile: "default"
+[2024-11-08 13:15:10:3820][main] INFO  c.e.w.gw.ApiGatewayApplication[57] - Started ApiGatewayApplication in 3.567 seconds (process running for 4.166)
+[2024-11-08 13:25:50:1032][main] INFO  c.e.w.gw.ApiGatewayApplication[51] - Starting ApiGatewayApplication using Java 17.0.13 with PID 22332 (C:\dev\workspace\gw\out\production\classes started by PMG043 in C:\dev\workspace\gw)
+[2024-11-08 13:25:50:1035][main] DEBUG c.e.w.gw.ApiGatewayApplication[52] - Running with Spring Boot v3.1.4, Spring v6.0.12
+[2024-11-08 13:25:50:1036][main] INFO  c.e.w.gw.ApiGatewayApplication[637] - No active profile set, falling back to 1 default profile: "default"
+[2024-11-08 13:25:54:4294][main] INFO  c.e.w.gw.ApiGatewayApplication[57] - Started ApiGatewayApplication in 4.045 seconds (process running for 4.668)
+[2024-11-08 13:27:32:995][main] INFO  c.e.w.gw.ApiGatewayApplication[51] - Starting ApiGatewayApplication using Java 17.0.13 with PID 21892 (C:\dev\workspace\gw\out\production\classes started by PMG043 in C:\dev\workspace\gw)
+[2024-11-08 13:27:32:998][main] DEBUG c.e.w.gw.ApiGatewayApplication[52] - Running with Spring Boot v3.1.4, Spring v6.0.12
+[2024-11-08 13:27:32:999][main] INFO  c.e.w.gw.ApiGatewayApplication[637] - No active profile set, falling back to 1 default profile: "default"
+[2024-11-08 13:27:35:4094][main] INFO  c.e.w.gw.ApiGatewayApplication[57] - Started ApiGatewayApplication in 3.859 seconds (process running for 4.384)
+[2024-11-08 13:28:19:1272][main] INFO  c.e.w.gw.ApiGatewayApplication[51] - Starting ApiGatewayApplication using Java 17.0.13 with PID 22128 (C:\dev\workspace\gw\out\production\classes started by PMG043 in C:\dev\workspace\gw)
+[2024-11-08 13:28:19:1276][main] DEBUG c.e.w.gw.ApiGatewayApplication[52] - Running with Spring Boot v3.1.4, Spring v6.0.12
+[2024-11-08 13:28:19:1277][main] INFO  c.e.w.gw.ApiGatewayApplication[637] - No active profile set, falling back to 1 default profile: "default"
+[2024-11-08 13:28:22:4721][main] INFO  c.e.w.gw.ApiGatewayApplication[57] - Started ApiGatewayApplication in 4.413 seconds (process running for 5.13)
+[2024-11-08 13:30:50:1022][main] INFO  c.e.w.gw.ApiGatewayApplication[51] - Starting ApiGatewayApplication using Java 17.0.13 with PID 17352 (C:\dev\workspace\gw\out\production\classes started by PMG043 in C:\dev\workspace\gw)
+[2024-11-08 13:30:50:1024][main] DEBUG c.e.w.gw.ApiGatewayApplication[52] - Running with Spring Boot v3.1.4, Spring v6.0.12
+[2024-11-08 13:30:50:1026][main] INFO  c.e.w.gw.ApiGatewayApplication[637] - No active profile set, falling back to 1 default profile: "default"
+[2024-11-08 13:30:53:3954][main] INFO  c.e.w.gw.ApiGatewayApplication[57] - Started ApiGatewayApplication in 3.693 seconds (process running for 4.27)
+[2024-11-08 13:30:57:7792][http-nio-8080-exec-1] DEBUG c.e.w.gw.controller.KafkaController[22] - message : hello2
+[2024-11-08 13:30:58:8857][kafka-producer-network-thread | producer-1] DEBUG c.e.w.gw.service.CustomProducer[42] - pub timestamp : 2024-11-08T13:30:57.285
+[2024-11-08 13:30:58:8857][kafka-producer-network-thread | producer-1] DEBUG c.e.w.gw.service.CustomProducer[43] - pub partition : 1
+[2024-11-08 13:30:58:8857][kafka-producer-network-thread | producer-1] DEBUG c.e.w.gw.service.CustomProducer[44] - pub message : hello2
+[2024-11-08 13:30:58:8878][org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] DEBUG c.e.w.gw.service.CustomConsumer[49] - [consumer2] => topic: dev-topic-test1, partition: 1, offset: 1323, value: hello2 
+[2024-11-08 13:32:02:957][main] INFO  c.e.w.gw.ApiGatewayApplication[51] - Starting ApiGatewayApplication using Java 17.0.13 with PID 21292 (C:\dev\workspace\gw\out\production\classes started by PMG043 in C:\dev\workspace\gw)
+[2024-11-08 13:32:02:959][main] DEBUG c.e.w.gw.ApiGatewayApplication[52] - Running with Spring Boot v3.1.4, Spring v6.0.12
+[2024-11-08 13:32:02:961][main] INFO  c.e.w.gw.ApiGatewayApplication[637] - No active profile set, falling back to 1 default profile: "default"
+[2024-11-08 13:32:05:3740][main] INFO  c.e.w.gw.ApiGatewayApplication[57] - Started ApiGatewayApplication in 3.522 seconds (process running for 4.032)
+[2024-11-08 13:32:20:891][main] INFO  c.e.w.gw.ApiGatewayApplication[51] - Starting ApiGatewayApplication using Java 17.0.13 with PID 6104 (C:\dev\workspace\gw\out\production\classes started by PMG043 in C:\dev\workspace\gw)
+[2024-11-08 13:32:20:893][main] DEBUG c.e.w.gw.ApiGatewayApplication[52] - Running with Spring Boot v3.1.4, Spring v6.0.12
+[2024-11-08 13:32:20:895][main] INFO  c.e.w.gw.ApiGatewayApplication[637] - No active profile set, falling back to 1 default profile: "default"
+[2024-11-08 13:32:22:3655][main] INFO  c.e.w.gw.ApiGatewayApplication[57] - Started ApiGatewayApplication in 3.453 seconds (process running for 3.942)
+[2024-11-08 13:32:49:896][main] INFO  c.e.w.gw.ApiGatewayApplication[51] - Starting ApiGatewayApplication using Java 17.0.13 with PID 20964 (C:\dev\workspace\gw\out\production\classes started by PMG043 in C:\dev\workspace\gw)
+[2024-11-08 13:32:49:898][main] DEBUG c.e.w.gw.ApiGatewayApplication[52] - Running with Spring Boot v3.1.4, Spring v6.0.12
+[2024-11-08 13:32:49:899][main] INFO  c.e.w.gw.ApiGatewayApplication[637] - No active profile set, falling back to 1 default profile: "default"
+[2024-11-08 13:32:52:3908][main] INFO  c.e.w.gw.ApiGatewayApplication[57] - Started ApiGatewayApplication in 3.695 seconds (process running for 4.232)
+[2024-11-08 13:33:42:54422][http-nio-8080-exec-1] DEBUG c.e.w.gw.controller.KafkaController[22] - message : hello2
+[2024-11-08 13:33:43:55471][kafka-producer-network-thread | producer-1] DEBUG c.e.w.gw.service.CustomProducer[42] - pub timestamp : 2024-11-08T13:33:42.790
+[2024-11-08 13:33:43:55471][kafka-producer-network-thread | producer-1] DEBUG c.e.w.gw.service.CustomProducer[43] - pub partition : 0
+[2024-11-08 13:33:43:55471][kafka-producer-network-thread | producer-1] DEBUG c.e.w.gw.service.CustomProducer[44] - pub message : hello2
+[2024-11-08 13:33:43:55478][org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] DEBUG c.e.w.gw.service.CustomConsumer[43] - [consumer1] => topic: dev-topic-test1, partition: 0, offset: 402, value: hello2 
+[2024-11-08 13:34:19:945][main] INFO  c.e.w.gw.ApiGatewayApplication[51] - Starting ApiGatewayApplication using Java 17.0.13 with PID 16716 (C:\dev\workspace\gw\out\production\classes started by PMG043 in C:\dev\workspace\gw)
+[2024-11-08 13:34:19:947][main] DEBUG c.e.w.gw.ApiGatewayApplication[52] - Running with Spring Boot v3.1.4, Spring v6.0.12
+[2024-11-08 13:34:19:948][main] INFO  c.e.w.gw.ApiGatewayApplication[637] - No active profile set, falling back to 1 default profile: "default"
+[2024-11-08 13:34:22:3893][main] INFO  c.e.w.gw.ApiGatewayApplication[57] - Started ApiGatewayApplication in 3.689 seconds (process running for 4.196)
+[2024-11-08 13:34:54:894][main] INFO  c.e.w.gw.ApiGatewayApplication[51] - Starting ApiGatewayApplication using Java 17.0.13 with PID 18708 (C:\dev\workspace\gw\out\production\classes started by PMG043 in C:\dev\workspace\gw)
+[2024-11-08 13:34:54:898][main] DEBUG c.e.w.gw.ApiGatewayApplication[52] - Running with Spring Boot v3.1.4, Spring v6.0.12
+[2024-11-08 13:34:54:899][main] INFO  c.e.w.gw.ApiGatewayApplication[637] - No active profile set, falling back to 1 default profile: "default"
+[2024-11-08 13:34:56:3602][main] INFO  c.e.w.gw.ApiGatewayApplication[57] - Started ApiGatewayApplication in 3.374 seconds (process running for 3.895)
+[2024-11-08 13:36:11:78482][http-nio-8080-exec-1] DEBUG c.e.w.gw.controller.KafkaController[22] - message : hello2
+[2024-11-08 13:36:12:79544][kafka-producer-network-thread | producer-1] DEBUG c.e.w.gw.service.CustomProducer[42] - pub timestamp : 2024-11-08T13:36:11.612
+[2024-11-08 13:36:12:79545][kafka-producer-network-thread | producer-1] DEBUG c.e.w.gw.service.CustomProducer[43] - pub partition : 1
+[2024-11-08 13:36:12:79545][kafka-producer-network-thread | producer-1] DEBUG c.e.w.gw.service.CustomProducer[44] - pub message : hello2
+[2024-11-08 13:36:12:79554][org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] DEBUG c.e.w.gw.service.CustomConsumer[49] - [consumer2] => topic: dev-topic-test1, partition: 1, offset: 1324, value: hello2 
